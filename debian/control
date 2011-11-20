@@ -1,15 +1,18 @@
-Source: ffmpegthumbnailer-nautilus
-Section: gnome
+Source: ffmpegthumbnailer-caja
+Section: mate
 Priority: extra
 Maintainer: Stefano Karapetsas <stefano@karapetsas.com>
-Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.1
-Homepage: <insert the upstream URL, if relevant>
+Build-Depends: debhelper
+Standards-Version: 3.9.2
+Homepage: https://github.com/stefano-k/ffmpegthumbnailer-caja
 
-Package: ffmpegthumbnailer-nautilus
+Package: ffmpegthumbnailer-caja
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, gconf2, nautilus,
- ffmpegthumbnailer
-Description: GConf schema to use ffmpegthumbnailer with nautilus
- This package contains the GConf schema to use ffmpegthumbnailer to make
- thumbnails for video files in nautilus.
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         mate-conf,
+         caja,
+         ffmpegthumbnailer
+Description: MateConf schema to use ffmpegthumbnailer with caja
+ This package contains the MateConf schema to use ffmpegthumbnailer to make
+ thumbnails for video files in caja.

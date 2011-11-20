@@ -1,3 +1,9 @@
+ffmpegthumbnailer-caja (0.2) unstable; urgency=low
+
+  * Ported from nautilus to caja.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 20 Nov 2011 17:24:10 +0100
+
 ffmpegthumbnailer-nautilus (0.1) guppy; urgency=low
 
   * Initial Release.
