@@ -1,3 +1,9 @@
+ffmpegthumbnailer-caja (0.3) unstable; urgency=low
+
+  * Fixed schemas.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 20 Nov 2011 18:05:20 +0100
+
 ffmpegthumbnailer-caja (0.2) unstable; urgency=low
 
   * Ported from nautilus to caja.
