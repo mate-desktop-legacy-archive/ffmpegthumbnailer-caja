@@ -1,9 +1,9 @@
-<gconfschemafile>
+<mateconfschemafile>
     <schemalist>
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@mxf/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@mxf/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@mxf/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@mxf/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -15,8 +15,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@mxf/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@mxf/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@mxf/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@mxf/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -28,8 +28,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@ogg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@ogg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@ogg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@ogg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -41,8 +41,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@ogg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@ogg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@ogg/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@ogg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -54,8 +54,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@ram/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@ram/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@ram/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@ram/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -67,8 +67,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@ram/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@ram/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@ram/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@ram/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -80,8 +80,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@sdp/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@sdp/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@sdp/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@sdp/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -93,8 +93,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@sdp/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@sdp/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@sdp/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@sdp/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -106,8 +106,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@vnd.ms-wpl/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@vnd.ms-wpl/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@vnd.ms-wpl/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@vnd.ms-wpl/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -119,8 +119,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@vnd.ms-wpl/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@vnd.ms-wpl/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@vnd.ms-wpl/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@vnd.ms-wpl/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -132,8 +132,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@vnd.rn-realmedia/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@vnd.rn-realmedia/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@vnd.rn-realmedia/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@vnd.rn-realmedia/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -145,8 +145,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@vnd.rn-realmedia/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@vnd.rn-realmedia/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@vnd.rn-realmedia/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@vnd.rn-realmedia/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -158,8 +158,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-extension-m4a/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-extension-m4a/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-extension-m4a/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-extension-m4a/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -171,8 +171,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-extension-m4a/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-extension-m4a/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-extension-m4a/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-extension-m4a/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -184,8 +184,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-extension-mp4/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-extension-mp4/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-extension-mp4/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-extension-mp4/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -197,8 +197,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-extension-mp4/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-extension-mp4/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-extension-mp4/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-extension-mp4/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -210,8 +210,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-flash-video/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-flash-video/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-flash-video/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-flash-video/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -223,8 +223,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-flash-video/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-flash-video/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-flash-video/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-flash-video/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -236,8 +236,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-matroska/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-matroska/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-matroska/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-matroska/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -249,8 +249,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-matroska/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-matroska/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-matroska/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-matroska/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -262,8 +262,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-netshow-channel/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-netshow-channel/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-netshow-channel/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-netshow-channel/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -275,8 +275,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-netshow-channel/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-netshow-channel/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-netshow-channel/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-netshow-channel/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -288,8 +288,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-ogg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-ogg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-ogg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-ogg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -301,8 +301,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-ogg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-ogg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-ogg/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-ogg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -314,8 +314,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-quicktimeplayer/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-quicktimeplayer/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-quicktimeplayer/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-quicktimeplayer/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -327,8 +327,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-quicktimeplayer/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-quicktimeplayer/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-quicktimeplayer/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-quicktimeplayer/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -340,8 +340,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-shorten/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-shorten/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-shorten/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-shorten/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -353,8 +353,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-shorten/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-shorten/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-shorten/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-shorten/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -366,8 +366,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/image@vnd.rn-realpix/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/image@vnd.rn-realpix/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/image@vnd.rn-realpix/enable</key>
+            <applyto>/desktop/mate/thumbnailers/image@vnd.rn-realpix/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -379,8 +379,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/image@vnd.rn-realpix/command</key>
-            <applyto>/desktop/gnome/thumbnailers/image@vnd.rn-realpix/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/image@vnd.rn-realpix/command</key>
+            <applyto>/desktop/mate/thumbnailers/image@vnd.rn-realpix/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -392,8 +392,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/image@x-pict/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/image@x-pict/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/image@x-pict/enable</key>
+            <applyto>/desktop/mate/thumbnailers/image@x-pict/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -405,8 +405,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/image@x-pict/command</key>
-            <applyto>/desktop/gnome/thumbnailers/image@x-pict/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/image@x-pict/command</key>
+            <applyto>/desktop/mate/thumbnailers/image@x-pict/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -418,8 +418,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/misc@ultravox/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/misc@ultravox/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/misc@ultravox/enable</key>
+            <applyto>/desktop/mate/thumbnailers/misc@ultravox/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -431,8 +431,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/misc@ultravox/command</key>
-            <applyto>/desktop/gnome/thumbnailers/misc@ultravox/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/misc@ultravox/command</key>
+            <applyto>/desktop/mate/thumbnailers/misc@ultravox/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -444,8 +444,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/text@x-google-video-pointer/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/text@x-google-video-pointer/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/text@x-google-video-pointer/enable</key>
+            <applyto>/desktop/mate/thumbnailers/text@x-google-video-pointer/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -457,8 +457,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/text@x-google-video-pointer/command</key>
-            <applyto>/desktop/gnome/thumbnailers/text@x-google-video-pointer/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/text@x-google-video-pointer/command</key>
+            <applyto>/desktop/mate/thumbnailers/text@x-google-video-pointer/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -470,8 +470,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@3gpp/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@3gpp/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@3gpp/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@3gpp/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -483,8 +483,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@3gpp/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@3gpp/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@3gpp/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@3gpp/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -496,8 +496,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@dv/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@dv/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@dv/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@dv/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -509,8 +509,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@dv/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@dv/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@dv/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@dv/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -522,8 +522,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@fli/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@fli/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@fli/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@fli/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -535,8 +535,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@fli/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@fli/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@fli/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@fli/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -548,8 +548,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@flv/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@flv/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@flv/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@flv/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -561,8 +561,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@flv/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@flv/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@flv/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@flv/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -574,8 +574,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@mp2t/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@mp2t/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@mp2t/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@mp2t/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -587,8 +587,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@mp2t/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@mp2t/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@mp2t/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@mp2t/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -600,8 +600,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@mp4/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@mp4/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@mp4/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@mp4/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -613,8 +613,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@mp4/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@mp4/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@mp4/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@mp4/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -626,8 +626,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@mp4v-es/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@mp4v-es/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@mp4v-es/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@mp4v-es/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -639,8 +639,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@mp4v-es/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@mp4v-es/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@mp4v-es/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@mp4v-es/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -652,8 +652,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@mpeg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@mpeg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@mpeg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@mpeg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -665,8 +665,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@mpeg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@mpeg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@mpeg/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@mpeg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -678,8 +678,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@msvideo/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@msvideo/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@msvideo/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@msvideo/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -691,8 +691,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@msvideo/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@msvideo/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@msvideo/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@msvideo/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -704,8 +704,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@ogg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@ogg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@ogg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@ogg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -717,8 +717,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@ogg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@ogg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@ogg/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@ogg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -730,8 +730,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@quicktime/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@quicktime/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@quicktime/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@quicktime/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -743,8 +743,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@quicktime/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@quicktime/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@quicktime/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@quicktime/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -756,8 +756,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@vivo/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@vivo/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@vivo/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@vivo/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -769,8 +769,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@vivo/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@vivo/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@vivo/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@vivo/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -782,8 +782,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@vnd.divx/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@vnd.divx/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@vnd.divx/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@vnd.divx/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -795,8 +795,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@vnd.divx/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@vnd.divx/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@vnd.divx/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@vnd.divx/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -808,8 +808,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@vnd.rn-realvideo/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@vnd.rn-realvideo/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@vnd.rn-realvideo/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@vnd.rn-realvideo/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -821,8 +821,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@vnd.rn-realvideo/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@vnd.rn-realvideo/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@vnd.rn-realvideo/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@vnd.rn-realvideo/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -834,8 +834,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@vnd.vivo/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@vnd.vivo/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@vnd.vivo/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@vnd.vivo/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -847,8 +847,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@vnd.vivo/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@vnd.vivo/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@vnd.vivo/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@vnd.vivo/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -860,8 +860,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@webm/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@webm/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@webm/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@webm/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -873,8 +873,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@webm/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@webm/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@webm/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@webm/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -886,8 +886,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-anim/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-anim/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-anim/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-anim/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -899,8 +899,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-anim/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-anim/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-anim/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-anim/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -912,8 +912,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-avi/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-avi/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-avi/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-avi/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -925,8 +925,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-avi/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-avi/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-avi/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-avi/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -938,8 +938,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-flc/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-flc/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-flc/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-flc/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -951,8 +951,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-flc/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-flc/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-flc/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-flc/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -964,8 +964,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-fli/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-fli/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-fli/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-fli/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -977,8 +977,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-fli/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-fli/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-fli/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-fli/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -990,8 +990,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-flic/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-flic/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-flic/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-flic/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1003,8 +1003,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-flic/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-flic/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-flic/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-flic/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1016,8 +1016,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-flv/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-flv/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-flv/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-flv/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1029,8 +1029,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-flv/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-flv/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-flv/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-flv/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1042,8 +1042,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-m4v/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-m4v/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-m4v/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-m4v/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1055,8 +1055,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-m4v/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-m4v/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-m4v/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-m4v/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1068,8 +1068,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-matroska/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-matroska/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-matroska/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-matroska/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1081,8 +1081,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-matroska/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-matroska/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-matroska/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-matroska/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1094,8 +1094,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-mpeg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-mpeg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-mpeg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-mpeg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1107,8 +1107,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-mpeg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-mpeg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-mpeg/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-mpeg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1120,8 +1120,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-asf/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-asf/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-asf/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-asf/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1133,8 +1133,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-asf/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-asf/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-asf/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-asf/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1146,8 +1146,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-asx/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-asx/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-asx/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-asx/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1159,8 +1159,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-asx/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-asx/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-asx/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-asx/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1172,8 +1172,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-msvideo/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-msvideo/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-msvideo/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-msvideo/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1185,8 +1185,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-msvideo/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-msvideo/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-msvideo/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-msvideo/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1198,8 +1198,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-wm/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-wm/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-wm/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-wm/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1211,8 +1211,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-wm/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-wm/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-wm/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-wm/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1224,8 +1224,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-wmv/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-wmv/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-wmv/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-wmv/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1237,8 +1237,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-wmv/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-wmv/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-wmv/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-wmv/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1250,8 +1250,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-wmx/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-wmx/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-wmx/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-wmx/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1263,8 +1263,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-wmx/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-wmx/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-wmx/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-wmx/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1276,8 +1276,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-wvx/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-wvx/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-wvx/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-wvx/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1289,8 +1289,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ms-wvx/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ms-wvx/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ms-wvx/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ms-wvx/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1302,8 +1302,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-nsv/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-nsv/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-nsv/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-nsv/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1315,8 +1315,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-nsv/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-nsv/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-nsv/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-nsv/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1328,8 +1328,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ogm@ogg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ogm@ogg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ogm@ogg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ogm@ogg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1341,8 +1341,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-ogm@ogg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-ogm@ogg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-ogm@ogg/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-ogm@ogg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1354,8 +1354,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-theora@ogg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-theora@ogg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-theora@ogg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-theora@ogg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1367,8 +1367,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-theora@ogg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-theora@ogg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-theora@ogg/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-theora@ogg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1380,8 +1380,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-totem-stream/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-totem-stream/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-totem-stream/enable</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-totem-stream/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1393,8 +1393,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/video@x-totem-stream/command</key>
-            <applyto>/desktop/gnome/thumbnailers/video@x-totem-stream/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/video@x-totem-stream/command</key>
+            <applyto>/desktop/mate/thumbnailers/video@x-totem-stream/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1406,8 +1406,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-realaudio/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-realaudio/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-realaudio/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-realaudio/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>true</default>
@@ -1419,8 +1419,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-realaudio/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-realaudio/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-realaudio/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-realaudio/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1432,8 +1432,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@3gpp/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@3gpp/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@3gpp/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@3gpp/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1445,8 +1445,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@3gpp/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@3gpp/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@3gpp/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@3gpp/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1458,8 +1458,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@ac3/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@ac3/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@ac3/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@ac3/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1471,8 +1471,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@ac3/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@ac3/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@ac3/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@ac3/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1484,8 +1484,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@AMR/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@AMR/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@AMR/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@AMR/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1497,8 +1497,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@AMR/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@AMR/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@AMR/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@AMR/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1510,8 +1510,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@AMR-WB/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@AMR-WB/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@AMR-WB/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@AMR-WB/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1523,8 +1523,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@AMR-WB/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@AMR-WB/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@AMR-WB/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@AMR-WB/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1536,8 +1536,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@basic/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@basic/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@basic/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@basic/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1549,8 +1549,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@basic/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@basic/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@basic/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@basic/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1562,8 +1562,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@midi/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@midi/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@midi/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@midi/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1575,8 +1575,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@midi/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@midi/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@midi/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@midi/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1588,8 +1588,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@mp4/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@mp4/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@mp4/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@mp4/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1601,8 +1601,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@mp4/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@mp4/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@mp4/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@mp4/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1614,8 +1614,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@mpeg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@mpeg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@mpeg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@mpeg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1627,8 +1627,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@mpeg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@mpeg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@mpeg/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@mpeg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1640,8 +1640,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@ogg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@ogg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@ogg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@ogg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1653,8 +1653,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@ogg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@ogg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@ogg/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@ogg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1666,8 +1666,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@prs.sid/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@prs.sid/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@prs.sid/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@prs.sid/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1679,8 +1679,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@prs.sid/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@prs.sid/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@prs.sid/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@prs.sid/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1692,8 +1692,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@vnd.rn-realaudio/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@vnd.rn-realaudio/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@vnd.rn-realaudio/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@vnd.rn-realaudio/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1705,8 +1705,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@vnd.rn-realaudio/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@vnd.rn-realaudio/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@vnd.rn-realaudio/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@vnd.rn-realaudio/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1718,8 +1718,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-aiff/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-aiff/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-aiff/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-aiff/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1731,8 +1731,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-aiff/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-aiff/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-aiff/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-aiff/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1744,8 +1744,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ape/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ape/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ape/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ape/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1757,8 +1757,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ape/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ape/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ape/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ape/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1770,8 +1770,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-flac/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-flac/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-flac/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-flac/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1783,8 +1783,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-flac/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-flac/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-flac/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-flac/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1796,8 +1796,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-gsm/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-gsm/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-gsm/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-gsm/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1809,8 +1809,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-gsm/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-gsm/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-gsm/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-gsm/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1822,8 +1822,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-it/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-it/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-it/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-it/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1835,8 +1835,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-it/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-it/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-it/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-it/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1848,8 +1848,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-m4a/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-m4a/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-m4a/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-m4a/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1861,8 +1861,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-m4a/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-m4a/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-m4a/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-m4a/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1874,8 +1874,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-matroska/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-matroska/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-matroska/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-matroska/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1887,8 +1887,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-matroska/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-matroska/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-matroska/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-matroska/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1900,8 +1900,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-mod/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-mod/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-mod/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-mod/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1913,8 +1913,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-mod/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-mod/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-mod/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-mod/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1926,8 +1926,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-mp3/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-mp3/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-mp3/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-mp3/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1939,8 +1939,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-mp3/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-mp3/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-mp3/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-mp3/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1952,8 +1952,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-mpeg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-mpeg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-mpeg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-mpeg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1965,8 +1965,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-mpeg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-mpeg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-mpeg/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-mpeg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -1978,8 +1978,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ms-asf/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ms-asf/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ms-asf/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ms-asf/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -1991,8 +1991,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ms-asf/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ms-asf/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ms-asf/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ms-asf/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2004,8 +2004,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ms-asx/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ms-asx/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ms-asx/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ms-asx/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2017,8 +2017,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ms-asx/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ms-asx/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ms-asx/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ms-asx/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2030,8 +2030,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ms-wax/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ms-wax/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ms-wax/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ms-wax/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2043,8 +2043,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ms-wax/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ms-wax/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ms-wax/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ms-wax/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2056,8 +2056,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ms-wma/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ms-wma/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ms-wma/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ms-wma/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2069,8 +2069,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-ms-wma/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-ms-wma/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-ms-wma/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-ms-wma/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2082,8 +2082,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-musepack/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-musepack/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-musepack/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-musepack/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2095,8 +2095,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-musepack/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-musepack/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-musepack/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-musepack/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2108,8 +2108,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-aiff/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-aiff/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-aiff/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-aiff/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2121,8 +2121,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-aiff/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-aiff/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-aiff/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-aiff/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2134,8 +2134,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-au/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-au/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-au/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-au/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2147,8 +2147,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-au/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-au/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-au/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-au/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2160,8 +2160,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-wav/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-wav/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-wav/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-wav/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2173,8 +2173,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-wav/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-wav/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-wav/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-wav/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2186,8 +2186,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-windows-acm/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-windows-acm/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-windows-acm/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-windows-acm/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2199,8 +2199,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-pn-windows-acm/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-pn-windows-acm/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-pn-windows-acm/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-pn-windows-acm/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2212,8 +2212,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-realaudio/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-realaudio/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-realaudio/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-realaudio/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2225,8 +2225,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-realaudio/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-realaudio/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-realaudio/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-realaudio/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2238,8 +2238,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-real-audio/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-real-audio/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-real-audio/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-real-audio/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2251,8 +2251,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-real-audio/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-real-audio/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-real-audio/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-real-audio/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2264,8 +2264,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-sbc/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-sbc/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-sbc/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-sbc/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2277,8 +2277,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-sbc/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-sbc/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-sbc/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-sbc/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2290,8 +2290,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-speex/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-speex/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-speex/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-speex/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2303,8 +2303,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-speex/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-speex/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-speex/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-speex/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2316,8 +2316,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-tta/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-tta/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-tta/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-tta/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2329,8 +2329,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-tta/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-tta/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-tta/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-tta/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2342,8 +2342,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-wav/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-wav/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-wav/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-wav/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2355,8 +2355,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-wav/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-wav/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-wav/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-wav/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2368,8 +2368,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-wavpack/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-wavpack/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-wavpack/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-wavpack/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2381,8 +2381,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-wavpack/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-wavpack/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-wavpack/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-wavpack/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2394,8 +2394,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-vorbis/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-vorbis/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-vorbis/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-vorbis/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2407,8 +2407,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-vorbis/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-vorbis/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-vorbis/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-vorbis/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2420,8 +2420,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-vorbis@ogg/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-vorbis@ogg/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-vorbis@ogg/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-vorbis@ogg/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2433,8 +2433,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-vorbis@ogg/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-vorbis@ogg/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-vorbis@ogg/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-vorbis@ogg/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2446,8 +2446,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-xm/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-xm/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-xm/enable</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-xm/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2459,8 +2459,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/audio@x-xm/command</key>
-            <applyto>/desktop/gnome/thumbnailers/audio@x-xm/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/audio@x-xm/command</key>
+            <applyto>/desktop/mate/thumbnailers/audio@x-xm/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2472,8 +2472,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-flac/enable</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-flac/enable</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-flac/enable</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-flac/enable</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>bool</type>
             <default>false</default>
@@ -2485,8 +2485,8 @@
 
 
         <schema>
-            <key>/schemas/desktop/gnome/thumbnailers/application@x-flac/command</key>
-            <applyto>/desktop/gnome/thumbnailers/application@x-flac/command</applyto>
+            <key>/schemas/desktop/mate/thumbnailers/application@x-flac/command</key>
+            <applyto>/desktop/mate/thumbnailers/application@x-flac/command</applyto>
             <owner>ffmpegthumbnailer</owner>
             <type>string</type>
             <default>/usr/bin/ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</default>
@@ -2497,4 +2497,4 @@
         </schema>
 
     </schemalist>
-</gconfschemafile>
+</mateconfschemafile>
