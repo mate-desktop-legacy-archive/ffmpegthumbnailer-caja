@@ -1,0 +1,5 @@
+ffmpegthumbnailer-caja
+======================
+
+This package install a MateConf schemas to use ffmpegthumbnailer to
+make thumbnails of video files in caja file manager.
