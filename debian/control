@@ -1,0 +1,15 @@
+Source: ffmpegthumbnailer-nautilus
+Section: gnome
+Priority: extra
+Maintainer: Stefano Karapetsas <stefano@karapetsas.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: <insert the upstream URL, if relevant>
+
+Package: ffmpegthumbnailer-nautilus
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gconf2, nautilus,
+ ffmpegthumbnailer
+Description: GConf schema to use ffmpegthumbnailer with nautilus
+ This package contains the GConf schema to use ffmpegthumbnailer to make
+ thumbnails for video files in nautilus.
