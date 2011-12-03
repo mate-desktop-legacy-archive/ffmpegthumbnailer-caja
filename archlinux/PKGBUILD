@@ -1,5 +1,5 @@
 pkgname=ffmpegthumbnailer-caja
-pkgver=git
+pkgver=2011.12.01
 pkgrel=1
 pkgdesc="MateConf schemas to use ffmpegthumbnailer in MATE Caja "
 arch=('any')
