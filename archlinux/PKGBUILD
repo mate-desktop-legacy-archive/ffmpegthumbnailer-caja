@@ -5,12 +5,12 @@ pkgdesc="MateConf schemas to use ffmpegthumbnailer in MATE Caja "
 arch=('any')
 depends=('mate-conf')
 makedepends=('git')
-url="https://github.com/stefano-k/ffmpegthumbnailer-caja"
+url="https://github.com/mate-desktop/ffmpegthumbnailer-caja"
 install=ffmpegthumbnailer-caja.install
 
 build() {
     cd "${srcdir}"
-    git clone https://github.com/stefano-k/ffmpegthumbnailer-caja.git ${pkgname}
+    git clone https://github.com/mate-desktop/ffmpegthumbnailer-caja.git ${pkgname}
 }
 
 package() {
